@@ -1,6 +1,5 @@
 # Lab2Web
  Praktikum Pemrograman Web2: PHP Dasar
-![Screenshot_20230311_111650](https://user-images.githubusercontent.com/116329071/227663666-4be6296c-6071-47ef-8fae-5f38602effee.png)
 ![Screenshot_20230325_054245](https://user-images.githubusercontent.com/116329071/227663667-cbc3e57d-637b-4156-bbb5-f335b7c25d85.png)
 ![Screenshot_20230325_054601](https://user-images.githubusercontent.com/116329071/227663669-1864947d-58d2-4b09-8411-019b4bb664a5.png)
 ![Screenshot_20230325_055327](https://user-images.githubusercontent.com/116329071/227663687-717569f0-6435-4e1d-b13a-02319d94b693.png)
