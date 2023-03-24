@@ -7,13 +7,32 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Belajar PHP Dasar</h1>
+        <!-- <h1>Belajar PHP Dasar</h1> -->
         <?php 
-            echo "Hello World";
-            echo "<br>";
-            echo "Muhammad Al Fatih Muzakki";
+            // echo "Hello World";
+            // echo "<br>";
+            // echo "Muhammad Al Fatih Muzakki";
         ?>
-        
-        
+
+        <!-- <br> -->
+
+        <!-- <h2>Menggunakan Variabel</h2> -->
+        <?php 
+            // $nim = "312110097";
+            // $nama = "Muhammad Al Fatih Muzakki";
+            // echo "Nim: $nim <br>";
+            // echo "Nama: $nama <br>";
+        ?>
+
+        <!-- <h2>Predefine Variable $_GET</h2> -->
+        <!-- <p>Selamat Datang <?php // echo $_GET["nama"]; ?></p> -->
+
+        <h2>Form Input</h2>
+        <form action="" method="post">
+            <label for="nama">Nama: </label>
+            <input type="text" name="tanggal-lahir" id="tanggal-lahir">
+        </form>
+
+
     </body>
 </html>
