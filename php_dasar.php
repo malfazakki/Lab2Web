@@ -38,6 +38,39 @@
             <!-- <p>Selamat Datang, <?php // echo $_POST["nama"]; ?></p> -->
         <?php // endif; ?>
 
+        <!-- <h2>Operator</h2> -->
+        <?php 
+        // $gaji = 5500000;
+        // $pajak = 0.1;
+        // $thp = $gaji - ($gaji * $pajak);
+        // echo "Gaji sebelum pajak = Rp. $gaji <br>";
+        // echo "Gaji yang dibawa pulan = Rp. $thp";
+        ?>
+
+        <!-- <h2>Kondisi IF</h2> -->
+        <?php 
+        // $namaHari = date("l");
+        // if ( $namaHari == "Sunday" ) {
+        //     echo "Minggu";
+        // } elseif ($namaHari == "Monday") {
+        //     echo "Senin";
+        // } elseif ($namaHari == "Tuesday") {
+        //     echo "Selasa";
+        // } elseif ($namaHari == "Wednesday") {
+        //     echo "Rabu";
+        // } elseif ($namaHari == "Thursday") {
+        //     echo "Kamis";
+        // } elseif ($namaHari == "Friday") {
+        //     echo "Jum'at";
+        // } elseif ($namaHari == "Saturday") {
+        //     echo "Sabtu";
+        // } else {
+        //     echo "Minggu";
+        // }
+        ?>
+
+
+
 
     </body>
 </html>
