@@ -27,11 +27,16 @@
         <!-- <h2>Predefine Variable $_GET</h2> -->
         <!-- <p>Selamat Datang <?php // echo $_GET["nama"]; ?></p> -->
 
-        <h2>Form Input</h2>
+        <!-- <h2>Form Input</h2>
         <form action="" method="post">
             <label for="nama">Nama: </label>
-            <input type="text" name="tanggal-lahir" id="tanggal-lahir">
-        </form>
+            <input type="text" name="nama" id="nama">
+            <button type="submit" name="submit">Kirim</button>
+        </form> -->
+
+        <?php // if(isset( $_POST["submit"] )) : ?>
+            <!-- <p>Selamat Datang, <?php // echo $_POST["nama"]; ?></p> -->
+        <?php // endif; ?>
 
 
     </body>
