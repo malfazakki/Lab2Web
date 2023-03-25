@@ -130,10 +130,5 @@
             <label for="tanggalLahir">Tanggal Lahir: </label>
             <input type="text" name="tanggalLahir" id="tanggalLahir">
         </form>
-
-            html
-
-
-
     </body>
 </html>
