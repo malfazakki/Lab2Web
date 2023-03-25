@@ -69,36 +69,69 @@
         // }
         ?>
 
-        <h2>Kondisi Switch</h2>
+        <!-- <h2>Kondisi Switch</h2> -->
         <?php 
-        $namaHari = date("l");
-        switch ($namaHari) {
-            case "Sunday" : 
-                echo "Minggu";
-                break;
-            case "Monday" :
-                echo "Senin";
-                break;
-            case "Tuesday" :
-                echo "Selasa";
-                break;
-            case "Wednesday" :
-                echo "Rabu";
-                break;
-            case "Thursday" :
-                echo "Kamis";
-                break;
-            case "Friday" :
-                echo "Jum'at";
-                break;
-            case "Saturday" :
-                echo "Sabtu";
-                break;
-            default: 
-                echo "Minggu";
-        }
+        // $namaHari = date("l");
+        // switch ($namaHari) {
+        //     case "Sunday" : 
+        //         echo "Minggu";
+        //         break;
+        //     case "Monday" :
+        //         echo "Senin";
+        //         break;
+        //     case "Tuesday" :
+        //         echo "Selasa";
+        //         break;
+        //     case "Wednesday" :
+        //         echo "Rabu";
+        //         break;
+        //     case "Thursday" :
+        //         echo "Kamis";
+        //         break;
+        //     case "Friday" :
+        //         echo "Jum'at";
+        //         break;
+        //     case "Saturday" :
+        //         echo "Sabtu";
+        //         break;
+        //     default: 
+        //         echo "Minggu";
+        // }
         ?>
 
+        <!-- <h2>Perulangan For</h2> -->
+        <?php 
+        // echo "Perulangan 1 sampai 10 <br><br>";
+        // for ($i = 1; $i <= 10; $i++) {
+        //     echo "Perulangan ke: $i <br>";
+        // }
+
+        // echo "<br><br>";
+        // echo "Perulangan Menurun dari 1 sampai 10 <br><br>";
+        // for ($i = 10; $i >= 1; $i--) {
+        //     echo "Perulangan ke: $i <br>";
+        // }
+        ?>
+
+        <!-- <h2>Perulangan Do While</h2> -->
+        <?php 
+        // echo "Perulangan 1 sampai 10 <br><br>";
+        // $i = 1;
+        // do {
+        //     echo "Perulangan ke $i <br>";
+        //     $i++;
+        // } while ( $i <= 10);
+        ?>
+
+        <form action="" method="post">
+            <label for="nama">Nama: </label>
+            <input type="text" name="nama" id="nama">
+            <br>
+            <label for="tanggalLahir">Tanggal Lahir: </label>
+            <input type="text" name="tanggalLahir" id="tanggalLahir">
+        </form>
+
+            html
 
 
 
