@@ -69,6 +69,36 @@
         // }
         ?>
 
+        <h2>Kondisi Switch</h2>
+        <?php 
+        $namaHari = date("l");
+        switch ($namaHari) {
+            case "Sunday" : 
+                echo "Minggu";
+                break;
+            case "Monday" :
+                echo "Senin";
+                break;
+            case "Tuesday" :
+                echo "Selasa";
+                break;
+            case "Wednesday" :
+                echo "Rabu";
+                break;
+            case "Thursday" :
+                echo "Kamis";
+                break;
+            case "Friday" :
+                echo "Jum'at";
+                break;
+            case "Saturday" :
+                echo "Sabtu";
+                break;
+            default: 
+                echo "Minggu";
+        }
+        ?>
+
 
 
 
